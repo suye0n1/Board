@@ -51,8 +51,6 @@ SimpleDateFormat fmt = new SimpleDateFormat("yyyyMMddhhmmssSSS");
 		<!-- 게시판 리스트 -->
 		<div class="Page_list">
 			<div id=list>
-
-				
 				<div id="num">
 					번호
 					<hr>
