@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/board.css">
+<title>회원가입</title>
+</head>
+<body>
+
+	<div class="box">
+		<div class="loginbox">
+			<form action="proc/joinproc.jsp" method="get">
+				<h1>회원가입</h1>
+				<table cellpadding="10">
+					<tr>
+						<th>이름</th>
+						<td><input type="text" name="user_name"><br></td>
+					</tr>
+					
+					<tr>
+						<th>아이디</th>
+						<td><input type="text" name="id"><br></td>
+					</tr>
+					<tr>
+						<th>비밀번호</th>
+						<td><input type="password" name="pw"><br></td>
+					</tr>
+					
+<!-- 					<tr> -->
+<!-- 						<th>비밀번호 확인</th> -->
+<!-- 						<td><input type="password" name="pw_check"><br></td> -->
+<!-- 					</tr> -->
+					
+					<tr>
+						<td colspan="2" align="center"><input type=submit
+							value="회원가입"></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

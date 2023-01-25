@@ -1,0 +1,129 @@
+@charset "UTF-8";
+body{
+	height: 1000px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+/* 	background-color: yellow; */
+}
+
+.box{
+	width:1200px;
+	height:850px;
+/* 	background-color: blue; */
+	display: grid;
+/* 	배너, 리스트, 페이지 */
+	grid-template-rows: 100px 650px 100px;
+/* 	border-radius: 10px; */
+}
+
+.banner{
+	width:1200px;
+	height:100px;
+/* 	background-color: pink; */
+/* 	display: grid; */
+/* 	 grid-template-columns: 1fr 1fr; */
+
+display: flex;
+justify-content:right;
+align-items: bottom;
+}
+
+#login{
+	width:90px;
+	height:30px;
+/* 	background-color: red; */
+	margin-top:70px;
+/* 	margin-bottom:0px; */
+}
+
+#logout{
+	width:120px;
+	height:30px;
+/* 	background-color: red; */
+	margin-top:70px;
+/* 	margin-bottom:0px; */
+}
+
+#mypage{
+	width:120px;
+	height:30px;
+/* 	background-color: red; */
+	margin-top:70px;
+/* 	margin-bottom:0px; */
+}
+
+#signup{
+	width:110px;
+	height:30px;
+/* 	background-color: orange; */
+	margin-top:70px;
+/* 	margin-bottom:0px; */
+}
+
+.board_list{
+	width:1200px;
+	height:650px;
+/* 	background-color: green; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+/* 	display: grid; */
+/* 	grid-template-columns: 0.5fr 2fr 1fr 0.5fr 1fr; */
+}
+
+
+
+#list{
+	width:1200px;
+	height:600px;
+/* 	background-color:orange; */
+	display: grid;
+	grid-template-columns: 0.2fr 1fr 0.3fr 0.2fr 0.5fr;
+	grid-template-rows:0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	border: 3px solid #e4e4e4;
+/* 	3px solid #e4e4e4; */
+}
+/* #list{ */
+/* 	width:1000px; */
+/* 	height:600px; */
+/* 	background-color:orange; */
+/* 	display: grid; */
+/* 	grid-template-columns: 0.2fr 1fr 0.3fr 0.2fr 0.5fr; */
+/* 	grid-template-rows:0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+/* 	border: 3px solid #e4e4e4; */
+/* /* 	3px solid #e4e4e4; */ */
+/* } */
+
+
+/* #b{ */
+/* 	width:1000px; */
+/* } */
+
+
+.bot{
+	width:1200px;
+	height:100px;
+/* 	display: flex; */
+/* 	justify-content: center; */
+/* 	align-items: center; */
+/* 	background-color: pink; */
+}
+
+#pageNum{	
+	width: 1200px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#w{
+	width: 1200px;
+	height: 50px;
+	margin-left:1000px;
+}
+
+
+
+
+
